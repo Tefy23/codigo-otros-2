@@ -1,4 +1,5 @@
-var formulario = document.querySelector(".form")
+/* Entiendo que el codigo hace una solicitud de varios campos, en los cuales el usuario debe ingresar, y al momento de enviarlos se debe reflejar en la consola, pero aún no estoy segura de si hace eso */
+var formulario = document.querySelector("form")
 
 /* Se reformulo la funcion, pero sigue dando error */
 formulario.onsubmit = function() { myFunction(e)
