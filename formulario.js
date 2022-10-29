@@ -1,6 +1,7 @@
-var formulario = document.querySelector("#form")
+var formulario = document.querySelector(".form")
 
-formulario.onsubmit = function(e) {
+/* Se reformulo la funcion, pero sigue dando error */
+formulario.onsubmit = function() { myFunction(e)
 
   e.prevent();
   
